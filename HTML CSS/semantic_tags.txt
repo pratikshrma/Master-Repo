@@ -1,0 +1,29 @@
+so lets suppose i am a web browser
+and here is an html code 
+<div>
+<p>This is a message </p>
+</div>
+
+the browser cannot understand what is inside the div tag so to deal with that the semantic tags were born
+it wasnt really a prob its just therre to make our livse easier. SO here are some examples.
+
+some semantinc tags are as follows:-
+
+<main>
+for main content of the page, unique o the page
+
+<section>
+defines a certain section of a website (ie blog list and contact info)
+
+<article>
+DEFINES a bit of content which makesup an article (ie blog post)
+
+<aside>
+defines some content related to something else(similar blogs)
+
+<header>
+for headers of a websites contains nav, title, etc
+
+<footer>
+for footer of a websites
+
