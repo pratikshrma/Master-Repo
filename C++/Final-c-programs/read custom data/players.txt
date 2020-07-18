@@ -1,0 +1,5 @@
+1 aman 100 
+2 shabu 200 
+3 anshu 56 
+4 kunal 45 
+5 komal_di 67

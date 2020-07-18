@@ -1,0 +1,33 @@
+git notes
+
+so all the steps and other info
+
+git add -A //to add all the files
+
+git commit -m "First Commit"  //to commit the changes
+
+Bitch ho gaya fuck yeah boom boom~!!!!
+
+to pehle git hum mei repo banani hei thk hei first step done
+
+ab usko clone karna hei 
+
+syntax:-
+
+git clone https://github.com/pratik6158/Master-Repo.git /home/tank/Desktop/Code
+
+ye tha mera case mei thk hei ab ek file bana nano first.txt kuch bhi 
+
+fir git add -A
+
+fir git commit -m "First Commit"
+
+wait fo rit wait for it now boom!!
+
+git push origin master 
+
+B-)
+
+ek min ab ek or bar try karne de kisi or ke sath repo ke sath fir report karta hun boom babe
+
+fuck yeah it works ab bas dekhna hei ssh ke sath kse connect karna hei isko  baki features to itne kam ke ni lage abhi par kya pata abhi to use karna shuru hi kia hei

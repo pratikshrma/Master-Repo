@@ -1,0 +1,18 @@
+about static
+where can we use static
+===
+inside the class
+outside the class
+
+inside the class:-
+static gona share the memory with all the instances that you create of class or struct there is only gooing to be only one instance of that static vaiable and similar things applies to static method in a class there is no instance of that class being passed into the method and it will be in done in the future
+
+
+outside the class:-
+
+linkage of that symmbol you decleared to be static is going to be internal
+
+just look at the code!!!
+
+
+//fk pata hi ni chala static mei hua kya ?? future mei thodi or knowledeg eke sath isko serch karna pdaga!!//

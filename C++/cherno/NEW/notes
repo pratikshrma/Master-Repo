@@ -1,0 +1,5 @@
+new keyword just simplly finds memory according to our needs
+and it is little bit slow then treditionall allocation of memory
+ie 
+        int x = 1;
+new is an operator just like +,-,*,etc.

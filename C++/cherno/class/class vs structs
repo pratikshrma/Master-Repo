@@ -1,0 +1,25 @@
+struct ==structure
+vs 
+class
+
+whean you should be using a struct and when to use a class??
+
+so the diff is 
+
+major ones = none 
+but there is one to do with the visibility
+
+so a class is pvt by default so if you dont specify anything it will  be considered private
+
+howerer with a struct it is default public; 
+
+but the main reason why struct is still used is because of its backward compatibility with c because c does not have classes it has structures ie struck but you can deal with that with just a simple 
+
+                #define struct class//this simplly means that wherever there is a struck just replace it with the word class with the functionality of struct instead
+
+so in the end it just boils down to the user preference!!!
+
+
+
+research about mathematical vector class//IMP
+

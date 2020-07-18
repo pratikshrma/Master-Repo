@@ -1,0 +1,8 @@
+log class 
+==
+used for debugging 
+==
+three levels:-
+1>erreor
+2>warning]
+3>message or trace messages
