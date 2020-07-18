@@ -1,0 +1,7 @@
+so the cascade in css means flowing down which actually boils down to two segments that is 
+1>
+	Inheritance:-
+		so suppose we got this html so if we make this div tag red its also gonna make aevery thing inside this red ir the p tag also and if we also got another tag inside this thats also gonna be red but not all prop are inherited ie padding and margins ,borders they aare not inherited mainly text font color are inherited   
+	<div>
+		<p>HELLO </p>
+	</div>

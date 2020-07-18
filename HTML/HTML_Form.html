@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial 3</title>
+</head>
+<body>
+	<h1>HTML form</h1>
+
+	<form>
+		<label for="username">Enter UserName</label>
+		<input type="text" id="username" required>
+		<br>
+		<br>
+		<label for="email">Enter Your Email ID</label>
+		<input type="email" name="email" required>
+		<br><br>
+		<label for="password">Enter Your Password</label>
+		<input type="password" name="password" required>
+		<input type="submit" name="hello">
+		</form>
+
+
+		<form>
+			<input type="radio" name="gender" value="male">Male<br>
+
+			<input type="radio" name="gender" value="female">Female<br>
+
+			<input type="radio" name="gender" value="other">Other<br>
+		</form>
+<hr>
+		<form>
+			<p>Select Your Age</p>
+			<label for="option-1">select your Age</label>
+			<input type="radio" name="Age" value="0-25" id="option-1">0-25<br>
+			<label for="option-2">select your Age</label>
+			<input type="radio" name="Age" value="0-25" id="option-2">25-75<br>
+
+		</form>
+		hello boi
+	<hr>
+	<form>
+		<label for="">Security Question</label>
+		<select name="Question" id="Question">
+			<option value="q1">what is your fav colour</option>
+			<option value="q2"  id="Question">whats your dogs name</option>
+			<option value="q3" id="Question">Hello boi what is your name</option>
+		</select>
+		<br><br>
+		<label for="">Security Question Answer:</label>
+		<input type="text" name="Answer" id="Answer">
+	</form>
+	<form>
+		<label for="bio" >Your Bio</label><br>
+		<textarea name="bio" id="bio"  cols="30" rows="10" placeholder="About You"></textarea>
+		<br>
+		<input type="submit" value="submit the form"name="">
+	</form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+//it is used to represent data
+
+//and it stands for java script object notation
+
+//generelly it is used to carry info to api which is very light weight 
+//so api and configs
+
+
+//some example code
+
+[
+	{
+		"name":"Aman",
+		"age":"17",
+		"height":"182"
+	},
+	{
+		"name":"shabu",
+		"age":"20",
+		"height":"170"
+	}
+]

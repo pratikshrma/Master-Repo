@@ -1,0 +1,48 @@
+h1{
+    color: blue;
+    background-color: green;
+    font-size: 40px;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+p{
+    color: cadetblue;
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 1px;
+    column-gap: 3px;
+}
+ul{
+    /* border: width 4px;
+    border-style: dotted;
+    border-color: red; */
+    border: red 4px dotted ;
+    border-bottom: #830d24 2px solid;
+
+}
+li{
+    list-style-type: square;
+    /* text-shadow: 2px 2px lightgrey; */
+    text-shadow: 1px 1px #ee99ee;
+}
+.error{
+    color: darkgreen;
+    font-size: 23px;
+}
+.helloji.error{
+    color: darkred;
+}
+h2.helloji{
+    color: yellow;
+}
+#helloworld{
+    color: burlywood;
+}
+a[href*="google"]
+{
+    background-color: yellow;
+    color: white;
+    border: solid black;
+}
