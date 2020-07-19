@@ -1,0 +1,9 @@
+positions ands layouts
+
+static
+relative
+fixed
+absolute
+sticky
+
+
