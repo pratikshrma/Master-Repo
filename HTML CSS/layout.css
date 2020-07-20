@@ -1,22 +1,49 @@
 header{
-    position: relative;
-    left: 100px;
-   
+    background-color: #f63232;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color: white;
+    border: 2px white solid;
+    padding: 4px;
+}
+header h2{
+
+    left: 0;
+    color: white;
+    border: 2px white solid;
+    padding: 6px ; 
+    display: inline-block;    
+    border-radius: 10px;
 }
 .banner{
     position: relative;
 }
 .banner img{
     max-width: 100%;
-    height: 700px;
+    
     
 }
 .welcome{
     position: relative;
-    bottom: 380px;
+    background-color: #ffc400;
+    color: white;
+    padding: 30px;
+    position: absolute; 
+    bottom: 25%;
     left: 0px;
 }
-
+.banner h2{
+   
+    font-size: 49px;
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
 
 .testing{
     position: relative;

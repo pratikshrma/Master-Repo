@@ -6,4 +6,12 @@ fixed
 absolute
 sticky
 
+https://dzone.com/articles/css-position-relative-vs-position-absolute#:~:text=Relative%20%2D%20the%20element%20is%20positioned,to%20its%20first%20positioned%20parent.
+for ref # diff bw relative and absolute posiion in css
 
+relative posiion :- he element is fixed relaive o its original position 
+
+absolute position :- the element is fixed relative to its parents posiion 
+    thk hei to pehle hamko ek koi parent element ko relative bnana pdta hei uske bad uske andhar koi
+    absolute element hoga or vo child bnaga or bahar vala relative tag vala element parent banta hei shiad se
+    abhi ke liye itna hi pata hei baki dekta hei bad mei
