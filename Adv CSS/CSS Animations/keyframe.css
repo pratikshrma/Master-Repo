@@ -1,0 +1,91 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+
+}
+.grass, .sky, .road{
+    position: relative;
+}
+
+.sky{
+    height: 40%;
+    background: skyblue;
+}
+.grass{
+    height: 30%;
+    background: seagreen;
+}
+.road{
+    height: 30%;
+    background: dimgray;
+    box-sizing: border-box;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+    width: 100%;
+}
+.lines{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 83%;
+
+}
+
+/* Elements to Animate */
+
+.mario{
+    /* transform: scale(.6,.6); */
+    /* is uper vali ko add karke kuch ajeeb si animation aa rahi thi */
+    position: relative;
+    top: -180px;
+    animation-name: driveM;
+    animation-duration: 3s;
+    width: 80px;
+    animation-fill-mode: forwards;
+    
+}
+.luigi{
+    position: relative;
+    top: -100px;
+    animation-name: driveL;
+    animation-duration: 2s;
+    width: 80px;
+    left: -200px;
+    /* animation-delay: 2s; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+.cloud{
+    position: absolute;
+    left: -10px;
+    top: 1px;
+    animation-name: cloud;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+/* about animation timing function 
+just look at the cloud and imagine its acceleration time curve yeah that is controlled by
+animation time function */
+/* KeyFrames */
+
+@keyframes driveL{
+    form{transform: translateX(0px);}
+    to{transform: translateX(800px);}
+}
+@keyframes driveM {
+    from{transform: translate(0px);}
+    to{transform: translate(500px);}
+}
+@keyframes cloud{
+    from{transform: translate(0px);}
+    to{transform: translate(500px);}
+}
+
+

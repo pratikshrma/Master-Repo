@@ -1,0 +1,20 @@
+:-so css animation helps you animate animation without the need od using jquery and javascrit and is super 
+
+:-easy once you get an hang of it.
+
+what we are gonna cover in this tutorial:p-
+1>Transforms
+2>Transitions
+3>keyframes
+4>Animation basics
+5>web Examples
+
+
+what you should know:-
+1>CSS {dead Important}
+2>HTML {Kinda Imp i mean come on}
+3>jQuery {not essentianl but if  you know it will help}
+
+
+
+image manipulation ke bare mei style.css mei hei good luck
