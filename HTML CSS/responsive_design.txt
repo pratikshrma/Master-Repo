@@ -1,0 +1,14 @@
+there are many diff things that make up an responsive design in a website some of hem are:-
+    1 > Media Query_; tells a browser how to style something at a given dimensionof the screen/viewport.
+    2 > viewport meta tag:- tells the browser what width the viewport should be and if we zoom in or out
+    3 > Responsive Images:- to load a low res img in a mobile.
+
+Now beore making a responsive website we should have some things in mind like how its gonna look in an android device 
+and its useability now there are some good practices that you should follow bedore making an responsive website
+
+    1.> Mobile First Aproach---->> first you should make the website keeping the mobile phone in mind so as o just add only the essentials as the viewport is 
+    not large  so it forces you to think ina way to preserve most space in the browser window and thn make the desktop version as now it is mush easier
+    to make a desktop version.
+
+
+    2.>Desktop First Aproach --->> it is same as the upper one just a bit more difficult ;-p

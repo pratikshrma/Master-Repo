@@ -1,0 +1,8 @@
+style element when they are imna particular state activate like mouse hover
+types:-
+    Hover,Focus,first child of a parent,etc
+    there are many more
+
+pseudo elements
+types:-
+    search kar lae varna layou.css ke end mei hei thode example usko dsekh ke aa jai ga samaj.
