@@ -1,0 +1,74 @@
+.popup{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5c5c5c;
+    text-align: center;
+}
+.popup-yo{
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    top: 120px;
+    border: darksalmon 3px solid;
+    background-color: darksalmon;
+    padding: 10px;
+    white-space: nowrap;
+}
+.ninja-img{
+    position: relative;
+    top: 158px;
+}
+input{
+    border: black solid 1px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 5px;
+
+}
+button{
+    position: relative;
+    right: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: solid black 1px;
+}
+.cross{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    border: 1px 353535 solid;
+    border-radius: 50%;
+    background-color: #353535;
+    color: white;
+    top: -120px;
+    right: 365px;
+    cursor: pointer;
+    
+}
+.cross:hover{
+    background-color: black;
+    box-shadow: grey 10px;
+}
+
+/* popup animation Style */
+
+body{
+    position: relative;
+    top: 100px;
+    animation: drop 3s ;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+@keyframes drop{
+    0%   { transform: scale(1,1)    translateY(0); }
+        10%  { transform: scale(1.1,.9) translateY(0); }
+        30%  { transform: scale(.9,1.1) translateY(-100px); }
+        50%  { transform: scale(1,1)    translateY(0); }
+        57%  { transform: scale(1,1)    translateY(-7px); }
+        64%  { transform: scale(1,1)    translateY(0); }
+        100% { transform: scale(1,1)    translateY(0); }
+    }
+}

@@ -42,11 +42,9 @@ html, body{
     /* is uper vali ko add karke kuch ajeeb si animation aa rahi thi */
     position: relative;
     top: -180px;
-    animation-name: driveM;
-    animation-duration: 3s;
-    width: 80px;
-    animation-fill-mode: forwards;
-    
+    animation: driveM 3s both infinite linear,
+                jump 0.3s 1.2s  ease ;
+                width: 80px;
 }
 .luigi{
     position: relative;
@@ -87,5 +85,9 @@ animation time function */
     from{transform: translate(0px);}
     to{transform: translate(500px);}
 }
-
+@keyframes jump{
+    0%{top: -180px}
+    50%{top: -250px}
+    100%{top: -180px}
+}
 
