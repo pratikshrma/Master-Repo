@@ -1,22 +1,15 @@
 const defaultResult = 0;
 let currentResult = defaultResult;
 
-
-const alfa = add(34, 78);
-console.log(alfa);
-add(10, 20);
-
-currentResult = currentResult + 10;
-
-let calculationDescription = `${currentResult} + 10`;
-
-outputResult(add(23, 45), calculationDescription);
-
-console.log("Hello World y");
-
 function add(num1, num2) {
-    const result = num1 + num2;
-    return result;
+  currentResult = currentResult + userInput.value;
+  outputResult(currentResult,'');
 }
-// you can add function where ever you want but not the 
+
+addBtn.addEventListener("click", add);
+// so if you add () after the add it will call the add function imidieatly after finising
+// the sentencs but if you do not add the parenthesis in the end it will tell the browser engin that wait
+// when the condition is met then only exicute the function in our case it is click event
+
+// you can add function where ever you want but not the
 // initialization variable
