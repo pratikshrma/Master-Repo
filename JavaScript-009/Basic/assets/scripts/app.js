@@ -2,8 +2,15 @@ const defaultResult = 0;
 let currentResult = defaultResult;
 
 function add(num1, num2) {
-  currentResult = currentResult + userInput.value;
-  outputResult(currentResult,'');
+  const calcDescription = `${currentResult} + ${userInput.value}`;
+
+  currentResult = currentResult + parseInt(userInput.value);
+  // instead of doing parseint every time you could also just add another +
+  // operator in the end and that willl also do the same thing 
+  // like currentResult=curretResult + +userInput.value;
+  // thats it
+  outputResult(currentResult,calcDescription );
+  
 }
 
 addBtn.addEventListener("click", add);
