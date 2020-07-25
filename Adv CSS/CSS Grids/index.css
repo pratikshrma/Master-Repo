@@ -1,0 +1,28 @@
+body{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#content{
+    display: grid;
+    /* grid-template-columns: 30%20%50%; */
+    /* grid-template-columns: 1fr 1fr 2fr; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, minmax(200px,auto));
+    /* grid-auto-rows: minmax(200px,auto); */
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    max-width: 960px;
+
+    margin: 0 auto;
+}
+#content div{
+    background: #3bbced;
+    padding: 30px;
+    /* margin: 20px; */
+
+}
+#content div:nth-child(even)
+{
+    background: #777;
+}
