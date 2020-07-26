@@ -1,0 +1,10 @@
+Terminal-> Cmd Prompt
+
+dir - to look all the files inside a folder
+cd - to enter the folder
+mkdir - to make a directory
+cd.. - to go one step back in the directory tree
+rmdir - to delete a directory
+call >> name_of_file.extension - to make a file from terminal
+notepad nanme_of_the_file.extension - to edit the file from terminal
+del fileName.extension -> to delete file only file
