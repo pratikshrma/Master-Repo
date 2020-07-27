@@ -77,3 +77,34 @@ name=['Aman','Shikari'];
 
 ab name ki value name=['Aman','Shikari']; ye hei par ab name_ch ki value bhi ['Aman','Shikari']; ye ho jai gi kyuki object heap mei store hoti hei to unki copy ni banti hei har bar assign karne ke bat isliye unka bas ref hi store hota hei islye agar ek change to dusra bhi change,
 
+but sometimes you do have to make a different copy not jut ref it with another arry/object
+
+so in that case 
+
+var hobbies=['Programing'];
+
+var newHobbies=[...hobbies];
+
+this will copy the entire object and is same for objects.
+
+//++++++++++++++++++++++++++++++
+SUPER IMPORTANT LECTURE 119
+//++++++++++++++++++++++++++++++
+
+now another case 
+
+const hello=['hello'];
+hello.push('boi');
+
+now you think there wil be an error no babe it will work because remember array/object stores memory location so when we push something into it it changes nothing i mean memory location is still same idk maybe some more momory must have been allocated but memory location is still the same.
+so it will work.
+
+
+but if you try to do something like 
+
+hello=['hello','boi'];
+
+now it will throw error bc basically what is happening is that you are making a band new array and storing it somewhere and then reassigning it to the hello and the n deleting the previous array which will of cource the const keyword will not tolerate 
+
+const keyword be like: NANI!!! omuiya Shinderu
+ 
