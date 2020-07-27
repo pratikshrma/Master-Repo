@@ -1,0 +1,79 @@
+Hoisting:-
+
+so whats hoisting generelly means is that it will pull all the declerations to the top 
+
+eg:-
+
+//+++++++++++++++++++++++++
+function name(yourname){
+	cosnole.log(yourname);
+} 
+var usrName='Pratik';
+name(usrName);
+//++++++++++++++++++++++++
+
+so the output will be undefined why??
+because inside javascript engine it sees the code as :-
+
+//+++++++++++++++++++++
+var usrName;
+
+function name(yourname){
+	cosnole.log(yourname);
+} 
+usrName='Pratik';
+name(usrName);
+
+//+++++++++++++++++++
+
+So this is HOISTING and for let and const it gives different error but the concept is same in that also/.
+
+
+and one more thing with var its kinda consfusing to the other people that why you would do that but and you are not given any punishment for doing such a thing to the other developers but let and const actually forces you to decleare them at the top.
+
+
+
+some other features of javascript of ES5
+
+so you can decleare a variable just like :-
+
+pratikyo = 'Pratik';
+
+so the javascript just assumes that oh this poor soul forget to add var let me help him so it just adds var automatically in the binary and this is really bad practice if you ae working in a group i mean think about it someone could think that its a redecleration or some shit or the decleration might be in some other file and some more forgiving behaviours which a nightmare for other devs so tho stop this there is a strict mode buit in java script which can be turned on by writing this at the top of the file but this might also turn foo some other features so be aware of that also.
+
+var undefined =3;
+
+this is valid in simple mode bu not in either strict mode or let or const 
+
+:-
+
+'use strict';  
+
+
+
+now some serious stuff REFRENCES 
+
+so basically there is two types of data that is primmitive and reference 
+
+primitive = var,let,const,null,boolean,undefined,symbol,etc
+reference = all Objects.
+
+now if we say that normal example
+
+var name='aman';
+var name_ch=name;
+
+name='shikari';
+
+ab name ki value shikari ho gai hei or name_ch ki value aman hi hei aggred thk hie ye hei primite type ye hota hei isme
+
+//+++++++++++++++++++
+ab reference value
+
+var name=['Aman'];
+var name_ch=name;
+
+name=['Aman','Shikari'];
+
+ab name ki value name=['Aman','Shikari']; ye hei par ab name_ch ki value bhi ['Aman','Shikari']; ye ho jai gi kyuki object heap mei store hoti hei to unki copy ni banti hei har bar assign karne ke bat isliye unka bas ref hi store hota hei islye agar ek change to dusra bhi change,
+

@@ -1,0 +1,59 @@
+For-of Looop:-
+
+for(const logEntry of battleLog)
+  {
+    console.log(logEntry);
+  }
+
+For-in loop:-
+
+let i=0;
+  for(const logEntry of battleLog)
+  {
+    console.log(`#${i}`);
+    for(const key in logEntry)
+    {
+      console.log(key);
+      console.log(logEntry[key]);
+    }
+    i++;
+  }
+
+break key will do whatever it is supposed to in the switch statement but in the loops it will clode the nearest noop from where it is placed in the code.
+
+and continue will skip to the next iteration of the code,
+
+but there is another way to use brreak you can agign which loop to break by doing this:-
+
+example:-
+
+outerLoop: for(var i=0;i<=3;i++)
+{
+  InnerLoop: for (var j=0;j<=9;j++)
+  {
+  console.log('Hello World');
+      if(j===3)
+      {break  outerLoop;}
+    }
+}
+
+and this will break the outer loop directly
+//+++++++++++++++++++++++++++++++++++++++++++
+
+Error-Handling
+
+var vs let  
+
+var is global and is like i am global and you should all recoganize me as such and nothing else
+
+let is a little bit shy and dosent like to go outside much so is it only stays valid under its given scope
+
+so thats the diff
+{
+  var hello1='hello var'; 
+  const hello2='hello const';
+  let hello3='hello let';
+}
+console.log(hello1);//thats cool
+console.log(hello2);//ERROR!
+console.log(hello3);//ERROR!
