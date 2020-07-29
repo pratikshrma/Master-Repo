@@ -1,0 +1,61 @@
+so something important:-
+
+function hello(){.........}
+
+is java script engine see's something like this hello() it will call it imedieatly but if you store it like hello it means you are saying to javascript engine that wait not now wait for something to happen some click or some shit!!
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++=
+
+so you kinda know about annonymus functions by this point so why would you assign a name to your annonymus function so lets assume that the file you have been working on is quite huge and then suddenly an error pops up and the browser compiler is like problem in annonymus function and you are like fuck there are like fkin 30+ annonymus function in this script and then you think you should have just named them if you just had named them then the compuiler would have been like oh boi the problem is in the function 'XYZ' here you go!!!
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++=
+
+const person=
+	{
+		greet: function greet(){
+			console.log('Hello World');
+		}
+	};
+
+person.greet();
+console.dir(start);
+
+you can do this sort of shit
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+const getWinner=(cChoice,pChoice) =>{}
+
+so now you would have came across something like this so what is this 
+this is a new way to write a function in javascript
+
+function somefn(){} this is correct 
+but 
+() => {}  thats a nono XXX
+
+you have to store it in something like or use it annonymusly
+it is always on the right side of the equal side
+or with an eventlistner #rock_paper_seissor/app.js
+
+const hello=()=>{}
+
+Advantage=>
+1> you save some function keyword and the code looks a bit clean
+
+2> it has some tricks under its sleves like TERNIARY OPERAIONS
+
+	const add=(a,b)=> a+b;
+
+	const add=function(a,b){return a+b};
+
+NOW PICK YOUR POISION!!
+
+yoyo empty pair of parenhesis is required and are not req only if your parameter in only one value
+()=> {} //no input $$ a lots of inputs
+arg=> {} // only one argument
+
+if you have only 	ONE 	expression in the function body you can ommit the curli braces and must also remove return statement and it will always return the value it might not be a problem but still keep it in mind.
+ 
+
+
