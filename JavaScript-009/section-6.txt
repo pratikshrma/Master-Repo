@@ -59,3 +59,6 @@ if you have only 	ONE 	expression in the function body you can ommit the curli b
  
 
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Default Arguments in Functions
