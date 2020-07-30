@@ -62,3 +62,23 @@ if you have only 	ONE 	expression in the function body you can ommit the curli b
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Default Arguments in Functions
+
+
+/+++++++++++++++++++++++++++++++
+
+so now lets talk about vector(c++) of javascript and that is rest operator(...) now you might be thinking that bhi ye to vo hei jo object ke pehle lagate hei usko ref na karke direct copy karne ke liye par agar object ke case mei lagai ga to vohi hoga par 
+
+agar function ke argument mei lagai ga to ye c++ vale vectors ki tarah kam karaga 
+
+const sumUp = (a, b, ...numbers) => {
+  let sum = 0;
+  for (const num of numbers) {
+    sum += num;
+  }
+  return sum;
+};
+
+console.log(sumUp(1, 5, 10, -3, 6, 10));
+console.log(sumUp(1, 5, 10, -3, 6, 10, 25, 88));
+
+matbal pehla input a mei dusra input b mei or uske bar jitne bhi input aai ge unko ye ek array mei sore karaga jiska name is case mei number hei matbal a,b ko lagana imp bbhi ni hei or kisi bhi variable ko ...number ke bad ni lagana hei matlab think about it vo tho pura hi irrelavnt hoga or javascript usko error bhi dega
