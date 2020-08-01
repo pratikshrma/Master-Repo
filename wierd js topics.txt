@@ -1,1 +1,6 @@
 call back function
+bind()
+call()
+apply()
+
+

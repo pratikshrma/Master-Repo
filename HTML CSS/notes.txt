@@ -1,0 +1,2 @@
+class is selected with a dot(.)
+ID is selected with a HashTag(#)
