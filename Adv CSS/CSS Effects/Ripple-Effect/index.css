@@ -1,0 +1,28 @@
+body{
+	background-color: #212333;
+
+}
+.ripple{
+	position: relative;
+	top: 200px;
+	left: 300px;
+	background-color: #212333;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: 8px 8px 10px #151722,-8px -8px 10px #25283b,
+				inset 8px 8px 10px #151722,inset -8px -8px 10px #25283b;
+	animation: wave 2s ease-in-out infinite;
+}
+@keyframes wave{
+	from{
+		transform: scale(0);
+		opacity: 1;
+		filter: blur(0.2px);
+	}
+	to{
+		transform: scale(1.5);
+		opacity: 0;
+		filter: blur(2px);
+	} 
+}
