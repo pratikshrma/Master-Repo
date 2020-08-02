@@ -1,0 +1,47 @@
+h1.textContent='hello'
+
+//+++++++++++++++++++++++++++++++++++++]
+
+<ul>
+	<li class="list-item">Item 1</li>
+	<li class="list-item">Item 2</li>
+	<li class="list-item">Item 3</li>
+</ul>
+
+what to do if you wannna select the second li tag now ofcource you can add a uniquue tag to second li tag but still you should understand the official way or the proper systamatic way:-
+
+const ul=document.querySelector('ul')
+ul.children[1] :-> 
+
+to select the second one ie item 2
+
+
+//|++++++++++++++++++++++++++++++++++++++++++++}
+
+now the opposite way lets go from li tag to ul tag>-
+
+const li=document.querySelector('li')
+ul=li.parentElement
+
+now if you wanna go to to body its kinda unrasonable i mean why would you do that 
+but sill in case you wanna do that (document.body)
+
+here is a way to go back in ancestory
+
+li.closest('body')
+
+but if you do 
+
+li.closest('header') which is not wrap li tag so the ans would be null
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+but if you are stubborn and wanna still select header you could use sibbling as the ul and header are sibbling inside body tag.
+
+ul.previousElementSibling
+
+and it works otherway aswell 
+
+ul.nextElementSibling
+
+if you select nextSibling or prviousSibling you would select the empty space as it is also an element but its what should i say its texture(idk! what the word so just gonna use the word texture but it is different) is not selected so it is null so it does not appear the html file in chrome or any browser

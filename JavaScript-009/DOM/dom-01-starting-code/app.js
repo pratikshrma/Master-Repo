@@ -1,6 +1,3 @@
-const listItemElements=document.querySelectorAll('li');
+const ul=document.body.firstElementChild.nextElementSibling;
+const firstLi=ul.firstElementChild;
 
-for(const listItemEl of listItemElements)
-{
-	console.dir(listItemEl);
-} 
