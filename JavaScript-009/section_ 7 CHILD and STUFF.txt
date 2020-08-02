@@ -45,3 +45,47 @@ and it works otherway aswell
 ul.nextElementSibling
 
 if you select nextSibling or prviousSibling you would select the empty space as it is also an element but its what should i say its texture(idk! what the word so just gonna use the word texture but it is different) is not selected so it is null so it does not appear the html file in chrome or any browser
+
+
+//++++++++++++++++++++++++++++++++++++++++++
+
+imp shit 
+
+1> classList lecture  160 
+
+
+//+++++++++++++++++++++++++++++++++++++++++++
+
+now lets say you wanna dynamically change the content of the html with the reload you what do you do one option is that
+
+
+thk hei side note agar ham ul ko se;lect karage to vo bas ul ke andghar hi hanges kar sakta hei bahar ni ja pai ga vo
+
+thk hei ab main point
+
+const ul=document.querySelector('ul');
+ul.innerHTML=ul.innerHTML+'<li>hello this is a new point</li>';
+
+now what this will do is make a new list in a new location and then delete this old one in a small list this is not a problem but in a long list this will take a lot of CPU power and is not very efficient
+
+
+
+now a new example lets this time an input tag:-
+
+const input=document.querySelector('input');
+input.innerHTML=input.innerHTML+<h2>There is some thing wrong with the input </h2>;
+
+
+now on the surface there seems to be no problem as it is not even a list so no cpu wastage even if we do this but in this case there is a diff type of problem as now it will copy every thing to a new location now the problem is that the user input is gone..
+
+SO the SOLUTION is :---
+
+element.insertAdjacentHTML(position, text);
+
+just google mdn---- it for more info but i mean the name is self explanitory
+
+
+
+
+
+
