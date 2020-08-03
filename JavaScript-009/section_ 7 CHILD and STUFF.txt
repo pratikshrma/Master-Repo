@@ -86,6 +86,18 @@ just google mdn---- it for more info but i mean the name is self explanitory
 
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+document.append VS document.appendChild
+
+side note
+const newli=document.createElement('li');
+in this case newli is a node this a node generelly0
+
+.appendChild = it accepts only nodes
+
+now .append== it accepts nodes aswell as direct string and can also accept multiple nodes/direct string  at once 
+
+so why use .appendchild at all so the internet exploror does not support appenndchild not the ms Edge the original microsoft exploror that is the ony downside lol:
 
