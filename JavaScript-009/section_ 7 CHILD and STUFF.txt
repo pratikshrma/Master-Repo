@@ -59,7 +59,7 @@ imp shit
 now lets say you wanna dynamically change the content of the html with the reload you what do you do one option is that
 
 
-thk hei side note agar ham ul ko se;lect karage to vo bas ul ke andghar hi hanges kar sakta hei bahar ni ja pai ga vo
+thk hei side note agar ham ul ko select karage to vo bas ul ke andghar hi hanges kar sakta hei bahar ni ja pai ga vo
 
 thk hei ab main point
 
@@ -101,3 +101,50 @@ now .append== it accepts nodes aswell as direct string and can also accept multi
 
 so why use .appendchild at all so the internet exploror does not support appenndchild not the ms Edge the original microsoft exploror that is the ony downside lol:
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+document.getElementby.....
+
+there type of method always give live connection t the element
+
+UNLIKE
+//\\\\\\\\\\\\\
+query selectors 
+//|\\\\\\\\\\\\\
+
+//++++++++++++++++++++++++++++++++++++++++++++
+
+Removing elements form html 
+
+now you could use replace but that  will replace the element but that aint gonna necesserely remove it
+
+so to remove it
+node.replaceChild(newnode, oldnode)
+
+const list=document.querySelector('ul');
+list.remove();
+
+now this wil not work in internet Exploror so you gotta use
+
+list.parentElement.removeChild(list)
+
+this method right here.
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++
+
+SUMMERY TIME
+
+1> appendChild()
+2> insertAdjecenElement()
+3> replaceChild()
+4> removeChild()
+
+//use there for proper browser support
+
+5> append()
+6> prepend()
+7> before()
+8> after()
+9> replaceWith()
+10> remove()
