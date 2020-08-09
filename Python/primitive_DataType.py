@@ -1,0 +1,4 @@
+# Integers
+# FLoats
+# Strings
+# Booleans 
