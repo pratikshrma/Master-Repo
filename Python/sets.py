@@ -30,3 +30,21 @@ Library2={'Harry Porter','Legand of Narnia'}
 
 all_books_in_town=Library1.union(Library2)
 print(all_books_in_town)
+
+# now if you wanna check whicjh book is in both of the libs
+
+common_books_in_both_libs=Library1.intersection(Library2)
+print(common_books_in_both_libs)
+
+# now if you wwanna check which are unique in both of the libs
+
+diffBooksLib1=Library1.difference(Library2)
+diffBooksLib2=Library2.difference(Library1)
+
+print(diffBooksLib1)
+print(diffBooksLib2)
+
+# no if you wanna clear clear the list 
+
+Library1=Library1.clear()
+print(Library1)
