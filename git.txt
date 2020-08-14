@@ -31,3 +31,10 @@ B-)
 ek min ab ek or bar try karne de kisi or ke sath repo ke sath fir report karta hun boom babe
 
 fuck yeah it works ab bas dekhna hei ssh ke sath kse connect karna hei isko  baki features to itne kam ke ni lage abhi par kya pata abhi to use karna shuru hi kia hei
+
+
+now if you wanna download a single file form the entire repo just open the file in raw mode and copy the link and just do thsi
+
+wget https://raw.githubusercontent.com/pandas-dev/pandas/master/doc/data/air_quality_no2.csv
+
+wget and that address to that file
