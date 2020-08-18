@@ -39,7 +39,7 @@ so you can decleare a variable just like :-
 
 pratikyo = 'Pratik';
 
-so the javascript just assumes that oh this poor soul forget to add var let me help him so it just adds var automatically in the binary and this is really bad practice if you ae working in a group i mean think about it someone could think that its a redecleration or some shit or the decleration might be in some other file and some more forgiving behaviours which a nightmare for other devs so tho stop this there is a strict mode buit in java script which can be turned on by writing this at the top of the file but this might also turn foo some other features so be aware of that also.
+so the javascript just assumes that oh this poor soul forget to add var let me help him so it just adds var automatically in the binary and this is really bad practice if you are working in a group i mean think about it someone could think that its a redecleration or some shit or the decleration might be in some other file and some more unforgiving behaviours which a nightmare for other devs so to stop this there is a strict mode buit in java script which can be turned on by writing this at the top of the file but this might also turn foo some other features so be aware of that also.
 
 var undefined =3;
 
@@ -96,7 +96,7 @@ now another case
 const hello=['hello'];
 hello.push('boi');
 
-now you think there wil be an error no babe it will work because remember array/object stores memory location so when we push something into it it changes nothing i mean memory location is still same idk maybe some more momory must have been allocated but memory location is still the same.
+now you think there will be an error[CONST] no babe it will work because remember array/object stores memory location so when we push something into it it changes nothing i mean memory location is still same idk maybe some more momory must have been allocated but memory location is still the same.
 so it will work.
 
 
