@@ -1,0 +1,5 @@
+1> django-admin startproject proj_name
+2>django-admin startapp my_app
+
+
+cool COOL!!
