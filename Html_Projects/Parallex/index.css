@@ -20,7 +20,7 @@ html {
 
 .bgimg-1 {
     background-image: url("img_parallax.jpg");
-    min-height: 90%;
+    min-height: 100%;
 }
 
 .bgimg-2 {

@@ -1,0 +1,44 @@
+body{
+	text-align: center;
+	margin:0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.width-adjustment{
+	padding-left: 30%;
+	padding-right: 30%;
+	/*width: 500px;*/
+	text-align: center;
+}
+.upper-section{
+	background-color: #2d4969;
+	font-size: 22px;
+	padding: 20px;
+}
+.main-heading{
+	position: relative;
+	left: 50px;
+	color: white;
+	font-size: 1.2em;
+	text-align: left;
+}
+.date{
+	font-size: 0.9em;
+	position: relative;
+	bottom: 60px;
+	text-align: right;
+}
+.Imp_Links{
+ text-align: right;
+ font-size: .8em;
+ position: relative;
+ bottom: 50px
+}
+/*.upper-desc{
+	padding-left: 30%;
+	width: 500px;
+	text-align: center;
+}
+*/.upper-span{
+	font-size: 1.2em;
+	color:  #648880;
+}
