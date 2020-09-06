@@ -1,0 +1,5 @@
+https://towardsdatascience.com/machine-learning-project-predicting-boston-house-prices-with-regression-b4e47493633d
+
+this is a link to the main article
+
+and it is all done in google colab amnshrma3411@gmail.com named as House_Pricing or something like that  
