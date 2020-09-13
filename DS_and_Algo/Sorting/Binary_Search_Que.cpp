@@ -21,33 +21,8 @@ int main()
         cin>>Qarr[i];
     }
     cout<<"Noq for loop starts"<<endl;
-    for(int i=0;i<NOQ;i++)
-    {
-		int key;
-        int find=Qarr[i];
-        cout<<"Queri "<<i<<" is "<<Qarr[i]<<endl;
-        int first=arr[0];
-        int last=arr[number-1];
-        cout<<"While looop "<<i<<" starts"<<endl;
-        while(first==last)
-        {
-            key=(first+last)/2;
-            if(arr[key]>find)
-            {
-                last=key;
-            }
-            else if(arr[key]<find)
-            {
-                first=key;
-            }
-            else
-            {
-				cout<<"AND NOW THE MAIN ANS IS ";
-				cout<<key<<endl;
-				cout<<""<<endl;
-				break;
-            }
-        }   
-    }
+    
+    //A REDESIGN IS REQUIRED
+	
 	return 0;
 }
