@@ -22,7 +22,9 @@ int main()
     }
     cout<<"Noq for loop starts"<<endl;
     
+    //
     //A REDESIGN IS REQUIRED
+	//
 	
 	return 0;
 }
