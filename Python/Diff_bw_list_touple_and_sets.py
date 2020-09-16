@@ -137,7 +137,8 @@ print(Dict)
 Dict[5]={'Nested':{
     1:'hello',
     2:'Boi'
-}}
+    }
+}
 print('\nAdding a Nested Key: ')
 print(Dict)
 
@@ -157,3 +158,10 @@ print(Dict.get(1),'\n')
 # Accessing element of a nested dictionary
 print('Accessing element of a nested dictionary :\n')
 print(Dict[5]['Nested'][1])
+
+# now removing elements from the dictionary
+Dict = { 5 : 'Welcome', 6 : 'To', 7 : 'Geeks', 
+        'A' : {1 : 'Geeks', 2 : 'For', 3 : 'Geeks'}, 
+        'B' : {1 : 'Geeks', 2 : 'Life'}} 
+    
+print("Initial Dictionary: ")
