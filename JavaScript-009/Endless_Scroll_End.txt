@@ -1,0 +1,12 @@
+var lastScrollHeight = 0; 
+function autoScroll() { 
+  var sh = document.documentElement.scrollHeight; 
+  if (sh != lastScrollHeight) { 
+    lastScrollHeight = sh; 
+    document.documentElement.scrollTop = sh; 
+  } 
+} 
+window.setInterval(autoScroll, 100); 
+
+write this in the console of the chrome or the firefox this will go to end of the endless scroll program 
+if i find something else i will add it BY!
