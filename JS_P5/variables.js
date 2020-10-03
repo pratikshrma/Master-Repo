@@ -16,15 +16,5 @@ function draw()
     background(r,g,b);
     fill(250,200,200);
     ellipse(X,Y,diameter,diameter);
-    if(circleX<398)
-    {
-        circleX++;
-        circleY++;
-    }
-    else
-    {
-        circleX=0;
-        circleY=0;
-    }
     
 }
