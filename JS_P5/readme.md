@@ -1,0 +1,3 @@
+so future me or any other user if you forgot how to open this poject just open the index.html it should load the program but if you wanna change the program lets say from valriavle to color just change it in index.html there should be a script taga and in that change the scr to that file
+
+and make sure that the p5 lib is present it is present in this folder but if you happen to take it somewhere but forgot to take the p5 just download it by
