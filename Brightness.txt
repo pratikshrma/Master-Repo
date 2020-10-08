@@ -1,0 +1,10 @@
+xrandr --prop | grep " connected"
+--> this command tho find the connection to the display
+
+xrandr --output VGA-1 --brightness 0.8
+
+--> then to change the brightness just change the number in the brightness and if you are using a different moniter then change the VGA to hdmi or some shit. by!!
+
+https://linuxhint.com/display_brightness_commandline/
+
+imp  link
