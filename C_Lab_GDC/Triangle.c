@@ -7,7 +7,7 @@ int main()
 	int spaces=(tr_size);
 	for(int i=0;i<=tr_size;i++)
 	{
-		for(int k=spaces;k>=0;k--)
+		for(int k=spaces-1;k>=0;k--)
 		{
 		printf(" ");
 		}
@@ -15,7 +15,7 @@ int main()
 		int stars=(2*i)+1;
 		for(int j=0;j<stars;j++)
 		{
-			printf("*");
+			printf("%d",i+1);
 		}
 		printf("\n");
 	}
