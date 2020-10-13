@@ -15,7 +15,7 @@ int main()
 		int stars=(2*i)+1;
 		for(int j=0;j<stars;j++)
 		{
-			printf("%d",i+1);
+			printf("%c",i+65);
 		}
 		printf("\n");
 	}
