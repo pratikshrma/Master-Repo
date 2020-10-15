@@ -16,5 +16,18 @@ int main()
 		}
 		printf("\n");
 	}
+	for(int i=yo;i>=0;i--)
+	{
+		for(int sp=yo;sp>i;sp--)
+		{
+			printf(" ");
+		}
+		for(int j=0;j<((i*2)+1);j++)	
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	
 	return 0;
 }
