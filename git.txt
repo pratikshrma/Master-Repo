@@ -22,11 +22,21 @@ fir git add -A
 
 fir git commit -m "First Commit"
 
-wait fo rit wait for it now boom!!
+wait for it wait for it now boom!!
 
 git push origin master 
 
 B-)
+
+==================
+nai git repo mei main branch master ki jgha main banti hei to 
+git push origin master ki jgha 
+git push origin main hoga 
+
+
+MAIN POINT
+==================
+
 
 ek min ab ek or bar try karne de kisi or ke sath repo ke sath fir report karta hun boom babe
 
