@@ -141,8 +141,8 @@ def gameLoop():
 		if(game_over==False):
  				score=0
 		if x1==foodx and y1==foody:
-			foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
-			foody = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
+			foodx = (round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0)/2
+			foody = (round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0)/2
  			length_of_snake+=1
  			print("Yummy!!")
  		
