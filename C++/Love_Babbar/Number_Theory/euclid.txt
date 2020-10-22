@@ -1,0 +1,1 @@
+This theorem is used to find out the hcf of two numbers
