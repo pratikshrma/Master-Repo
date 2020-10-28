@@ -1,17 +1,14 @@
 #include <iostream>
 using namespace std;
 void yo(int arr[]){
-	int size=sizeof(arr)/sizeof(arr[0]);
-	
-	for(int i=0;i<size;i++){
-		cout<<arr[i]<<" ";
-	}for(int i=0;i<size;i++){
-		for(int j=0;j<size-1;j++){
-			if(arr[j]>arr[j+1]){
+	int size=5;
+	for(int i=0;i<size-1;i++){
+		for(int j=i+1;j<size;j++){
+			if(arr[j]>arr[i]){
 				int swp=arr[j];
-				arr[j]=arr[j+1];
-				arr[j+1]=arr[j];
-			}
+				arr[j]=arr[i];
+				arr[i]=swp;
+				}
 		}
 	}
 	for(int i=0;i<size;i++){
@@ -19,15 +16,10 @@ void yo(int arr[]){
 	}
 }
 int main(){
-	int n;
-	cout<<"Enter the size of the List ";
-	cin>>n;
+	int n=5;
 	int arr[n];
 	for(int i=0;i<n;i++){
 		cin>>arr[i];
-	}
-	for(int i=0;i<n;i++){
-		cout<<arr[i]<<" ";
 	}
 	yo(arr);
 }
