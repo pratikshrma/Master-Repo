@@ -1,6 +1,0 @@
-this is a backtracking file in python and it can also be considerd in the python projects will do GUI tommorow during the first class 
-and the link to the Source Code page
-
-https://techwithtim.net/tutorials/python-programming/sudoku-solver-backtracking/
-
-by
