@@ -1,5 +1,6 @@
 xrandr --prop | grep " connected"
 --> this command tho find the connection to the display
+then once you see the type of connector like hdmi-1 or vga-1 replace it with vga-1 in the below command
 
 xrandr --output VGA-1 --brightness 0.8
 

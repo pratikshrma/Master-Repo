@@ -1,0 +1,3 @@
+so the strategy name is PDT
+
+PLAN -> DO -> TRACK		
