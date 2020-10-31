@@ -1,3 +1,6 @@
 1> Global Variables
 2> macros
-3>goto  //will write about thi later
+3> goto  
+4> void*
+5> using namespace std;
+6> NEW and DELETE
