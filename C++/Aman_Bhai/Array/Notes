@@ -1,0 +1,12 @@
+Subarray vs SubSequence
+subarray is the continuous part of an array
+no of subarray of an element of an array is {nC2 + n} ie = n*(n+1)/2
+//+++++++++++++++++++++++++++++++++++
+
+SUBSEQUENCE
+a subsequence is a sequence that can be derived by an array by selecting zero or more elements without changing the order of the remaining array
+ye continuous ni hota hei
+
+//+++++++++++++++++++++++++++++++++++
+
+Every subarray is a sequence but every subsequence is not a subarray
