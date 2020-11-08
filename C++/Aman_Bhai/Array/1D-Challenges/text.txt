@@ -1,0 +1,2 @@
+so the que is to find the first pair in the group
+like if the given array is 14934793  as yyou can see in this the smallest firsr pair is 3 but the first pair is 4 so write a program to find both 
