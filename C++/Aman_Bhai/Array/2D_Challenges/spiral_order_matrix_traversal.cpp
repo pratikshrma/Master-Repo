@@ -29,25 +29,25 @@ int main(){
 	while(row_end>row_begin && column_end>column_begin){
 		// cout<<"yo we are in the while\n";
 		// lets print the first row
-		for(int i=column_begin;i<column_end;i++){
+		for(int i=column_begin;i<column_end;++i){
 			cout<<a[row_begin][i]<<" ";
 		}
 		row_begin++;
 
-		for(int i=row_begin;i<row_end;i++){
+		for(int i=row_begin;i<row_end;++i){
 			cout<<a[i][column_end-1]<<" ";
 		}
 		column_end--;
 
 		if(row_begin<row_end){
-			for(int i=column_end-1;i>column_begin;i--){
+			for(int i=column_end-1;i>=column_begin;--i){
 				cout<<a[row_end-1][i]<<" ";
 			}
 			row_end--;
 		}
 
 		if(column_begin<column_end){
-			for(int i=row_end-1;i>row_begin;i--){
+			for(int i=row_end-1;i>=row_begin;--i){
 				cout<<a[i][column_begin]<<" ";
 			}
 			column_begin++;
@@ -61,6 +61,3 @@ int main(){
 
 	return 0;
 }
-
-
-// fk pata ni kar dekta hei ab isko
