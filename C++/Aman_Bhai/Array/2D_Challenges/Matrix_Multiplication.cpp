@@ -9,24 +9,26 @@ int main(){
 
 	int m1[n1][n2];
 	int m2[n2][n3];
-
+	cout<<"Enter the elements of the first array"<<endl;
 	for(int i=0;i<n1;i++){
 		for(int j=0;j<n2;j++){
 			cin>>m1[i][j];
 		}
 	}
+	cout<<"Enter the elements of the second array"<<endl;
 	for(int i=0;i<n2;i++){
 		for(int j=0;j<n3;j++){
-			cin>>m1[i][j];
+			cin>>m2[i][j];
 		}
 	}
-
+	// MAIN LOGIC
 	int ans[n1][n3];
 	for(int i=0;i<n1;i++){
 		for(int j=0;j<n3;j++){
 			ans[i][j]=0;
 		}
 	}	
+	
 
 	for(int i=0;i<n1;i++){
 		for(int j=0;j<n3;j++){
@@ -35,14 +37,14 @@ int main(){
 			}
 		}
 	}
-
+	// MAIN LOGIC
+// okie okie 
 	for(int i=0;i<n1;i++){
-		for(int j=0;j<n3;j++){
+		for(int j=0;j<n1;j++){
 			cout<<ans[i][j]<<" ";
 		}
 		cout<<endl;
-	}
-
+	}	
 
 
 	return 0;
