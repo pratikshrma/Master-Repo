@@ -1,0 +1,2 @@
+viewport meta tag
+https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
