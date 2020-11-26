@@ -7,7 +7,8 @@ bool sorted(int arr[],int n){
     if(n==1){
         return true;
     }
-    bool restArray=sorted(arr+1,n-1);
+    bool restArray=sorted(arr+1,n-1);  //yaha pe arr+1 karne ka matlab ye hua ki jse ki pehle arr ka initial pointer
+    									// 0 pe hei to ab vo 1 pe ho jai ga
     return (arr[0]<arr[1] && restArray);
 }   
 
