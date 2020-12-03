@@ -1,0 +1,52 @@
+:q to quit the file
+:wq to first save and then quit the file
+:q!  to quit the file without saving it first
+
+AND NOW LETS LEARN ABOUT SOME COMMANDS:-
+ 0> I is used to enter the insert mode adn esc is use to enter the command mode in the command mode all these commands are avtivated
+
+ 1> DD :- It is used to delete the line
+
+ 2> in command mode you can navigate the text using these keywords that is  HJKL   (left up bottom right)
+
+ 3> Capital G(single) to go up and gg (double small g) to the top
+
+ 4> "}"( curli brace) it is used to move down the code in chunks and same for "{"  to go up some chunks of code
+
+5> you can also do is press a number ans then press hjkl to move that no of steps in any direction  like first 20 and then j to go down 20 lines
+
+6> Now deleting a line and then undoing it you can delete a line with "dd" and then press "u" to undo it
+and you can redo it with ctrl+R
+
+7>Now how to copy and paste code so you do y y (y twice) and it will copythe line to the clip board and then to paste the line you do p  Now the small p will paste it below and the capital P will paste it above
+
+8> now you can delete a line wiht dd and it will also copy it to the clipboard and then you can paste it using the p button 
+
+9>now you can also combine commands like you can press 10 and then dd and it will delete 10 lines of code below the cursor
+
+10> Now visual mode and it will help you to select the code in chunck ie to select multiple lines of code and you can enter this by pressing Capital V(Capital V)  and you can also combine it with other commands like dd and etc now you can use small v to go to the visual mode and capital V to go to the Visual Line Mode.
+
+11> now to add A NEW LINE  you can press o to add a new line below now if you want to add a new line above you can use capital O like this
+
+SIDE NOTE : THERE ARE LIKE A MILLION WAYS TO DO THE SAME STUFF IN VIM SO SELECT THE TECHNIQUE WICH IS MOST NATURAL TO YOU 
+
+NOW THAT WE HAVE ESTABLISHED HOW TO MOVE HORIZONTALLY IN A FILE LETS SE HOW WE CAN VERTICALLY MOVE IN A FILE
+
+12> to go to the next word you can use w and it is going to be the most handy key and to go back a word you can use "b" key
+
+13>now if you want to go to a specific line you can just do 
+:30 and it will just take you to the line 30 and :0 to go to the top
+
+14> now you can use 0 to go to the beginning of the line we could also goto the end of the line by usin $ 
+ 
+15> Now if you wanna be even more precise then you can do is f and then the first letter or the symbol in that line like f! will take you to the first ! in that line  noice
+
+16> now you can also use % to go to the {} braces or any other braces in that function so you wanna go to the start of the function you can just do % and boom you wanna go to the other brace press % and boom you are on the other brace
+
+17>Now lets talk about C and it is for changing 
+
+now you can do like cw or dw instead of dd to only change the word
+like cw will errase the word and throw you into the insert mode
+
+18>you can do Capital D to delete the rest of the line after the cursor instead of the whole line with dd 
+Capital C will deletet the rest of the line and then put you into the instert mode 
