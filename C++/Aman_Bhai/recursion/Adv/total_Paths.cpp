@@ -1,5 +1,5 @@
 #include <iostream>
-#include "run.h"
+// #include "run.h"
 using namespace std;
 
 int countPath(int s,int e){
@@ -12,12 +12,12 @@ int countPath(int s,int e){
 	int count=0;
 	for(int i=1;i<=6;i++){
 		count+=countPath(s+i,e);
+		// pata ni kya ho raha hei yaha pe
 	}
 	return count;
 }
 
 int main(){
-	input();
-	cout<<countPath(0,30)<<endl;
+	cout<<countPath(1,4)<<endl;
 	return 0;
 }

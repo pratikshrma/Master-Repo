@@ -9,11 +9,18 @@ of the problem at any point of time
 //first if it is even possibe?
 //then how?
 /*
-1 0 1 0 1   so this is the mapyou can go in one not in 0 , 0 are walls 
+1 0 1 0 1   so this is the mapyou can go in 1 not in 0 , 0's are walls 
 1 1 1 1 1
 0 1 0 1 0
 1 0 0 1 1
 1 1 1 0 1
+
+or iska output
+1 0 0 0 0 
+1 1 1 1 0
+0 0 0 1 0 
+0 0 0 1 1 
+0 0 0 0 1  THIS IS THE PATH 
 */
 #include <iostream>
 using namespace std;
