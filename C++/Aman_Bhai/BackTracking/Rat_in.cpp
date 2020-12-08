@@ -79,10 +79,10 @@ int main(){
 		}
 	}
 
-	if(ratInMaze(arr,0,0,n,solarr)){
+	if(ratInMaze(arr,0,0,n,solarr)){ //yaha pe 00 hamare starting point hei
 		for(int i=0;i<n;i++){
 			for(int j=0;j<n;j++){
-				cout<<arr[i][j]<<" ";
+				cout<<solarr[i][j]<<" ";
 			}
 			cout<<endl;
 		}	

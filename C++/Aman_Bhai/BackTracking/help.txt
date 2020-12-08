@@ -1,0 +1,24 @@
+A rat in a maze problem 
+
+first initialize the and array with all zero 
+then as you can see that you could only move in two direction ie right and bottom
+
+the rat has to start from the top left corner to the bottom right corner
+
+1 0 0 0
+1 1 1 1
+0 1 0 0
+1 1 1 1 
+
+so you could only go in the 1 and not in 0
+
+lets define a function solveMazeUtil(maze,x,y,sol)  lets make it short like solve(maze,x,y,sol)
+
+solve(maze[4][4],0,0,sol[4][4])
+
+now lets see if we can go in the which direction as you can see right side is blocked so we have to go in the bottom 
+
+
+
+iske gfg ke channel pe kafi sahi vid hei usko dekhi rat in a maze backtracking part 2 
+

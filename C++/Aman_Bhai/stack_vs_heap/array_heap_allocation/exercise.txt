@@ -1,0 +1,48 @@
+1>Write a statement that allocates a new array of 75 characters called frog. The new array should be in the heap.
+
+Ans 1> char* frog= new char[75]
+
+
+2>There is something wrong with the following function. Explain what is wrong.
+
+  // makeZeroedArray(n) returns an array with
+  // n items, all set to 0.
+
+  int* makeZeroedArray(int n)
+  {
+    int A[n];
+    for(int i = 0; i < n; i++)
+    {
+       A[i] = 0;
+    }
+    return A;
+  }
+
+Ans 2> iska ans to pata hei ki a ko hamne stack mei allocate kia hei to is function ke bad khatam ho jai ga to ham return mei dangling pointer hi pass kar rahe hoge
+
+acha thk hei thk hei ye int type ka pointer return karaga
+
+3>There is something wrong with the following function. Explain what is wrong.
+
+  // makeZeroedArray(n) returns an array with
+  // n items, all set to 0.
+
+  int* makeZeroedArray(int n)
+  {
+    int* A = new int(n);
+    for(int i = 0; i < n; i++)
+    {
+       A[i] = 0;
+    }
+    return A;
+  }
+
+ans 3> ye vohi noobie mistake hei isme ham mas 4 bytes allocate kar rahe hei or uski value n assign kar rahe hei hamko vaha pe [] ye use karna pdaga
+
+
+4>Array A has been created by
+
+  double* A = new double[m];
+If you are done with array A and want to return it to the heap manager, what statement should you use? Answer
+
+ans 4> delete[] A;
