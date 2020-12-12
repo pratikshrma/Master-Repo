@@ -6,7 +6,7 @@ int main(){
 	for(int i=0;i<n;i++){
 		a[i]=i+1;
 	}
-	cout<<*a<<endl;
+	cout<<a[2]<<endl;
 
 
 	return 0;
